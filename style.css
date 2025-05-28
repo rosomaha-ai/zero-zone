@@ -96,3 +96,17 @@ a.button {
   }
 }
 
+
+.button {
+  display: inline-block;
+  min-width: 140px;
+  text-align: center;
+}
+
+/* Чтобы при адаптации они не разъезжались */
+@media (max-width: 500px) {
+  .button {
+    width: 100%;
+  }
+}
+
