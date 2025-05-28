@@ -1,3 +1,4 @@
+/*
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -20,6 +21,34 @@
       <label for="amount">Введите сумму:</label><br>
       <input type="number" id="amount" name="amount" required><br><br>
       <div class="button-group">
+        <a href="index.html" class="button">На главную</a>
+        <button type="submit" class="button">Оплатить</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>© 2025 Rosomaha. Все права защищены.</p>
+  </footer>
+</body>
+</html>
+*/
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оплата</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Оплата</h1>
+    <form action="success.html" method="get">
+      <label for="amount">Введите сумму:</label><br>
+      <input type="number" id="amount" name="amount" required><br><br>
+      
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
         <a href="index.html" class="button">На главную</a>
         <button type="submit" class="button">Оплатить</button>
       </div>
