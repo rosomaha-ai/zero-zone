@@ -74,3 +74,25 @@ input[type="number"] {
   }
 }
 
+
+/* Унифицированный стиль кнопок */
+a.button {
+  width: 100%;
+  max-width: 280px;
+  box-sizing: border-box;
+}
+
+/* Центровка кнопок */
+.button {
+  display: inline-block;
+  text-align: center;
+}
+
+/* Адаптация под маленькие экраны */
+@media (max-width: 600px) {
+  .button {
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
